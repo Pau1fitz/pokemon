@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+	html, body{
+		height: 100%;
+		margin: 0;
+	}
+
+	.container {
+		max-width: 600px;
+		margin: 0 auto;
+		background-color: #FFD720;
+		height: 100%;
+		position: relative;
+		border-radius: 30%;
+	}
+
+	.left-eye {
+		position: absolute;
+	    left: 12%;
+	    top: 15%;
+	    height: 100px;
+	    width: 100px;
+	    border: 50px solid #000;
+	    border-radius: 50%;
+	    background-color: #fff;
+	}
+
+	.right-eye {
+		position: absolute;
+		right: 12%;
+	    top: 15%;
+		height: 100px;
+		width: 100px;
+		border: 50px solid #000;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+
+	.left-cheek {
+		position: absolute;
+		top: 45%;
+		left: 2%;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		background-color: #f00;
+	}
+
+	.right-cheek {
+		position: absolute;
+		top: 45%;
+		right: 2%;
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		background-color: #f00;
+
+	}
+
+	.nose {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+	  	width: 0; 
+	  	height: 0; 
+	  	border-left: 20px solid transparent;
+	  	border-right: 20px solid transparent;
+	  	border-top: 20px solid #000;
+	}
+
+	.mouth {
+		position: absolute;
+	    margin: auto;
+	    top: 60%;
+	    left: 0;
+	    right: 0;
+	    width: 35px;
+	    height: 35px;
+	    transform: rotate(225deg);
+	    background: transparent;
+	    border-right: 2px solid #000;
+	    border-bottom: 2px solid #000;
+	}
+
+	</style>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="left-eye"></div>
+	<div class="right-eye"></div>
+	<div class="left-cheek"></div>
+	<div class="right-cheek"></div>
+	<div class="nose"></div>
+	<div class="mouth"></div>
+</div>
+
+</body>
+</html>
